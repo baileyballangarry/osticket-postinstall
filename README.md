@@ -3,7 +3,8 @@
 </p>
 
 <h1>osTicket - Post-Install Configuration</h1>
-This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
+
+This guide provides instructions for configuring the open-source help desk ticketing system, osTicket, after installation..<br />
 
 <h2>Environments and Technologies Used</h2>
 
@@ -88,11 +89,13 @@ Upon clicking "Create", the newly created Agents should appear as shown in the f
 </p>
 
 <p>
-After creating Agents, the next step is to create Users, who are clients that submit tickets when they encounter problems. A User is identified by their email address. Follow the steps below to create a User:
+Once you've set up Agents, the next task is to establish Users, individuals who will submit tickets when they encounter issues. Each User is associated with their email address. To create a User, follow these steps:
 
-Navigate to the Agent Panel, select Users, and click on "User Directory".
-Click "Add User" to create a new User or Users.
-After creating one or more Users, the User Directory should appear as shown in the following image:
+Go to the Agent Panel, choose "Users," and then click on "User Directory."
+
+Click "Add User" to generate one or multiple Users.
+
+After creating one or more Users, the User Directory should look like the image provided below:
 </p>
 
 <p>
@@ -100,7 +103,7 @@ After creating one or more Users, the User Directory should appear as shown in t
 </p>
 
 <p>
-SLA Plans define the expected time frame within which a particular ticket is to be resolved by the help desk. To create SLA Plans, navigate to the Admin Panel and select "Manage" followed by "SLA Plans". Each SLA Plan consists of a schedule and a grace period. For example, the SEV-A SLA Plan may have a 24/7 schedule with an hour-long grace period.
+SLA Plans establish the anticipated time frame in which a specific ticket should be resolved by the help desk. To craft SLA Plans, access the Admin Panel, and select "Manage," then choose "SLA Plans." Each SLA Plan comprises a timetable and an allowance period. For instance, the SEV-A SLA Plan might feature a 24/7 schedule with a one-hour grace period.
 </p>
 
 <p>
@@ -108,7 +111,7 @@ SLA Plans define the expected time frame within which a particular ticket is to 
 </p>
 
 <p>
-Here is an example of how different SLA Plans can look
+Here's an image showcasing the various appearances of different SLA Plans.
 </p>
 
 <p>
@@ -116,7 +119,7 @@ Here is an example of how different SLA Plans can look
 </p>
 
 <p>
-Help Topics enable Users to organize their tickets based on specific issues they are experiencing. For instance, if a User is unable to access mobile banking, a relevant Help Topic may be "Business Critical Outage", which can be accessed from the following location:
+Help Topics allow Users to categorize their tickets according to the specific problems they encounter. For example, if a User is facing issues with mobile banking access, they can choose the appropriate Help Topic, such as "Business Critical Outage," accessible from the following location:
 </p>
 
 <p>
